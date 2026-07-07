@@ -1,0 +1,13 @@
+# Ignore the large raw data files
+data/*.txt
+data/*.gz
+data/*.tsv
+data/*.pkl
+data/raw/*.tsv
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Keep the results but ignore the noise
+.DS_Store
