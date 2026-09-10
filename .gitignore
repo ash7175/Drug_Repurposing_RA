@@ -3,7 +3,6 @@ data/*.txt
 data/*.gz
 data/*.tsv
 data/*.pkl
-data/raw/*.tsv
 data/processed/
 # Ignore Python cache
 __pycache__/
