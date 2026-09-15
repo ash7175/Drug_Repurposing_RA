@@ -2,8 +2,9 @@
 data/*.txt
 data/*.gz
 data/*.tsv
-data/*.pkl
-data/processed/
+data/processed/*.pkl
+data/raw/interactions.tsv
+data/raw/*.txt
 # Ignore Python cache
 __pycache__/
 *.pyc
