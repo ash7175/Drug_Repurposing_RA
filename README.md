@@ -1,14 +1,16 @@
-**Network-Based Drug Repurposing for Rheumatoid Arthritis**
+# **Network-Based Drug Repurposing for Rheumatoid Arthritis**
+
 This project implements a Systems Biology approach to identify potential drug repurposing candidates using thehuman protein-protein interactome and network medicine principles. 
-Network pharmacology pipeline that screens existing drugs for repurposing potential in rheumatoid arthritis, using the network proximity framework 
-from Guney et al. (2016, *Nature Communications*). 
-The core idea is that a drug is a repurposing candidate if its protein targets sits close to the RA disease module 
-in a human protein-protein interaction (PPI) network — closer than would be expected by chance. There is a chance of repurposing the drug or drug combinations to RA then.
+
+Network pharmacology pipeline that screens existing drugs for repurposing potential in rheumatoid arthritis, using the network proximity framework from Guney et al. (2016, *Nature Communications*). 
+
+The core idea is that a drug is a repurposing candidate if its protein targets sits close to the RA disease module in a human protein-protein interaction (PPI) network — closer than would be expected by chance. There is a chance of repurposing the drug or drug combinations to RA then.
 
 Data Sources 
   Disease genes: Open Targets (EFO_0000685, score ≥ 0.30)
   PPI network: STRING v12.0 (combined score ≥ 700)
-  Drug-target interactions: DGIdb 
+  Drug-target interactions: DGIdb
+  
 Raw Data 
 Large files not tracked by git. Download from: - 
   STRING: https://stringdb-downloads.org/download
